@@ -1,0 +1,275 @@
+*{
+    list-style: none;
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+}
+
+
+html {
+    display: table;
+    margin: auto;
+    font-family: "poppins";
+    text-decoration: #444444;
+    background-color: #f0f0f0;
+    list-style: none;
+}
+
+
+
+
+body {
+    max-width: 1366px;
+    overflow-x: hidden;
+    display: flex;
+    flex-direction: column;
+    vertical-align: middle;
+    
+}
+
+.nav {
+    display: block;
+    /* background-color: #ffffff; */
+    height: 40px;
+    width: 100%;
+    /* box-shadow: 00px 00px 10px  #3838384d; */
+    
+    
+
+}
+
+label.logo{
+    color: #444444;
+    font-size: 35px;
+    line-height: 80px;
+    padding: 0 100px;
+    font-weight: bold;
+    font-family: "Akira Expanded";
+}
+
+nav ul{
+    float: right;
+    margin-right: 150px;
+
+
+}
+
+nav ul li{
+    display: inline-block;
+    line-height: 80px;
+    margin: 0 5px;
+
+
+}
+
+nav ul li a{
+    color: #444444;
+    font-size: 17px;
+    text-transform: uppercase;
+    border-radius: 15px;
+    padding: 0px 10px;
+
+}
+
+nav ul li a:hover {
+    border: 2px solid #00AF74;
+    transition: .5s;
+    color: #00AF74;
+    border-radius: 15px;
+}
+.hero-title {
+    width: 1366px;
+    height: 100px;
+    text-align: center;
+}
+
+.hero-title {
+    width: 1366px;
+    text-align: center;
+}
+
+.heading-top{
+    width: 1366px;
+    position: absolute;
+    font-family: 'Akira Expanded';
+    font-style: normal;
+    font-weight: 800;
+    font-size: 80px;
+    line-height: 70px;
+    color: #00AF74;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    top: 120px;
+
+}
+
+.heading-back{
+    width: 1366px;
+    font-family: 'Akira Expanded';
+    font-style: normal;
+    font-weight: 800;
+    font-size: 80px;
+    -webkit-text-stroke: 1px #00AF74;   
+    color: transparent;
+    position: absolute;
+    z-index: 1;
+    opacity: 60%;
+    left: 50%;
+    top: 125px;
+    transform: translate(-50%, -50%);
+}
+
+
+
+.first{
+    display: flex;
+    flex-direction: column;
+    width: auto;
+    
+}
+
+.below{
+    display: flex;
+    flex-direction: row;
+    margin-left:auto ;
+    margin-right: auto;
+}
+
+#statue {
+   display: block;
+   margin-left: auto;
+   margin-right: auto;
+   margin-top: 20px;
+    width: 600px;
+    height: 600px;
+    padding: 50px;
+    background: url(2.jpg);
+    filter: drop-shadow(0px 30px 25px rgba(0, 0, 0, 0.4));
+}
+
+#statue-2 {
+    display: block;
+   margin-left: 50px;
+   margin-right: 50px;
+    width: 300px;
+    height: 300px;
+    margin-top: -100px;
+    
+}
+#statue-3 {
+    display: block;
+    margin-left: 50px;
+    margin-right: 50px;
+     width: 300px;
+     height: 300px;
+     margin-top: -100px;
+     
+}
+
+
+.sec{
+    display: flex;
+}
+.full{ 
+    width: 600px;
+    height: 600px;
+    padding: 50px;
+    margin-left: 50px;
+}
+
+@media (max-width:600px){
+
+    body {
+        max-width: 600px;
+        overflow-x: hidden;
+        display: flex;
+        flex-direction: column;
+        vertical-align: middle;
+        
+    }
+    .logo {
+        display: none;
+    }
+    
+    .hero-title {
+        width: 600px;
+        text-align: center;
+    }
+    
+    .heading-top{
+        width: 1366px;
+        position: absolute;
+        font-family: 'Akira Expanded';
+        font-style: normal;
+        font-weight: 800;
+        font-size: 40px;
+        line-height: 70px;
+        color: #00AF74;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        top: 100px;
+    
+    }
+    
+    .heading-back{
+        width: 1366px;
+        font-family: 'Akira Expanded';
+        font-style: normal;
+        font-weight: 800;
+        font-size: 40px;
+        -webkit-text-stroke: 1px #00AF74;   
+        color: transparent;
+        position: absolute;
+        z-index: 1;
+        opacity: 60%;
+        left: 50%;
+        top: 105px;
+        transform: translate(-50%, -50%);
+    }
+
+    #statue {
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+        margin-top: 20px;
+         width: 500px;
+         height: 500px;
+         padding: 50px;
+         background: url(2.jpg);
+         filter: drop-shadow(0px 30px 25px rgba(0, 0, 0, 0.4));
+     }
+
+     #statue-2 {
+        display: block;
+       margin-left: 50px;
+       margin-right: 50px;
+        width: 200px;
+        height: 200px;
+        margin-top: -70px;
+        
+    }
+
+    #statue-3 {
+        display: block;
+       margin-left: 50px;
+       margin-right: 50px;
+        width: 200px;
+        height: 200px;
+        margin-top: -70px;
+        
+    }
+
+    .sec{
+        display: flex;
+        flex-direction: column;
+    }
+    .full{ 
+        width: 500px;
+        height: 500px;
+        padding: 50px;
+        margin-left: 50px;
+        padding-bottom: 0px;
+    }
+    
+}
