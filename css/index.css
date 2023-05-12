@@ -516,13 +516,16 @@ table{
 
 
 @media (max-width: 400px) {
-
+    html{
+        margin: 0;
+    }
     body{
         width: 320px;
-        display: flex;
+        display: block;
         flex-direction: row;
         margin: 20px auto;
         overflow-x: hidden;
+        
     }
     .wrapper {
         width: 320px;
@@ -599,6 +602,7 @@ table{
         left: 50%;
         transform: translate(-50%, -50%);
         top: 100px;
+        margin-left: -20px;
     }
     
     .heading-back{
@@ -612,6 +616,7 @@ table{
         z-index: 1;
         opacity: 60%;
         left: 50%;
+        margin-left: -20px;
         top: 102px;
         transform: translate(-50%, -50%);
         padding: 0px;
@@ -637,9 +642,10 @@ table{
     }
 
     .profile-pic img {
-        width: 250px;
+        width: 300px;
         margin-right: 0;
         margin-top: 20px;
+        margin-left: 10px;
 
     }
 
